@@ -51,6 +51,25 @@ This end-to-end project focuses on detecting fraudulent credit card transactions
    - Streamlit dashboard to simulate real-time predictions
 
 ---
+## 📂 Folder Structure
+```
+credit-card-fraud-detection/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing_modeling.ipynb
+│   └── 03_model_evaluation.ipynb
+├── models/
+│   └── saved_model.pkl (optional)
+├── visuals/
+│   └── feature_importance.png
+├── streamlit_app/
+│   └── fraud_detector.py (optional)
+└── README.md
+```
+---
 
 ## 📬 Let’s Connect
 
