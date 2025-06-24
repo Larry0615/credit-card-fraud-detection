@@ -67,7 +67,7 @@ This end-to-end project tackles the critical challenge of detecting fraudulent c
 * 🌟 **Precision:** 78%
 * 🌟 **Recall:** 89%
 * 🌟 **F1 Score:** 83%
-* 🌟 **ROC AUC:** 0.96
+* 🌟 **ROC AUC:** 0.89
 * ✅ Best model chosen for deployment
 
 ### 5. **Threshold Tuning**
