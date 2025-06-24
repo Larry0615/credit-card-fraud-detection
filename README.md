@@ -7,11 +7,11 @@ This end-to-end project tackles the critical challenge of detecting fraudulent c
 
 ## 🔍 Business Questions
 
-* 🛕️ Can we accurately identify fraudulent transactions from historical patterns?
-* ⚖️ How do we handle highly imbalanced classes (only 0.17% are frauds)?
-* 🤖 Which models perform best for this task (Logistic Regression, Random Forest)?
-* 🌟 How can we maximize fraud detection without overwhelming false positives?
-* 📈 What threshold provides the best balance between Precision and Recall?
+*  Can we accurately identify fraudulent transactions from historical patterns?
+*  How do we handle highly imbalanced classes (only 0.17% are frauds)?
+*  Which models perform best for this task (Logistic Regression, Random Forest)?
+*  How can we maximize fraud detection without overwhelming false positives?
+*  What threshold provides the best balance between Precision and Recall?
 
 ---
 
@@ -46,9 +46,9 @@ This end-to-end project tackles the critical challenge of detecting fraudulent c
 
 ### 3. **Data Preparation**
 
-* 📏 Scaled `Amount` feature using `StandardScaler`
-* 🧲 Train-test split using `stratify=y` to preserve class distribution
-* 🥮 Applied **SMOTE** to oversample minority (fraud) class in training data
+*  Scaled `Amount` feature using `StandardScaler`
+*  Train-test split using `stratify=y` to preserve class distribution
+*  Applied **SMOTE** to oversample minority (fraud) class in training data
 
 ### 4. **Modeling & Evaluation**
 
@@ -64,17 +64,17 @@ This end-to-end project tackles the critical challenge of detecting fraudulent c
 
 #### 🔹 Random Forest Classifier + SMOTE
 
-* 🌟 **Precision:** 78%
-* 🌟 **Recall:** 89%
-* 🌟 **F1 Score:** 83%
-* 🌟 **ROC AUC:** 0.89
+*  **Precision:** 78%
+*  **Recall:** 89%
+*  **F1 Score:** 83%
+*  **ROC AUC:** 0.89
 * ✅ Best model chosen for deployment
 
 ### 5. **Threshold Tuning**
 
-* 📉 Evaluated performance at multiple decision thresholds
-* 📈 Chose threshold that optimized F1 score
-* 🧠 Final model caught 116 out of 148 frauds with 89% precision
+*  Evaluated performance at multiple decision thresholds
+*  Chose threshold that optimized F1 score
+*  Final model caught 116 out of 148 frauds with 89% precision
 
 ### 6. **Model Export**
 
