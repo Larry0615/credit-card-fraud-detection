@@ -93,7 +93,7 @@ joblib.dump(rf_model, 'random_forest_fraud_model.pkl')
 | Precision    | 0.89            |
 | Recall       | 0.78            |
 | F1 Score     | 0.83            |
-| ROC AUC      | 0.96            |
+| ROC AUC      | 0.89            |
 | Fraud Caught | 116 / 148 (78%) |
 
 ---
