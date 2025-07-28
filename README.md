@@ -1,7 +1,7 @@
 #  Credit Card Fraud Detection (Python | 2025)
 
  **Project Overview**
-This end-to-end project tackles the critical challenge of detecting fraudulent credit card transactions using anonymized real-world data. It showcases a complete machine learning workflow — from data cleaning and exploratory analysis to class balancing (SMOTE), model evaluation, threshold tuning, and model serialization. This project simulates how a Data Analyst or Data Scientist would approach fraud risk in a real financial environment.
+This end-to-end project tackles the critical challenge of detecting fraudulent credit card transactions using anonymized real-world data. It showcases a complete machine learning workflow from data cleaning and exploratory analysis to class balancing (SMOTE), model evaluation, threshold tuning, and model serialization. This project simulates how a Data Analyst or Data Scientist would approach fraud risk in a real financial environment.
 
 ---
 
